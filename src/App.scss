@@ -1,0 +1,30 @@
+body {
+  font-family: 'Arial';
+  padding: 10px;
+  
+  & * {
+    box-sizing: border-box;
+  }
+}
+
+.calcApp {
+  border: .5px solid #000;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.calc-buttons-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.clear-btn {
+  font-size: 20px;
+  width: 100%;
+  display: block;
+  padding: 10px;
+  min-height: 68px;
+  background-color: #d9d9d9;
+  border: .5px solid #000;
+  cursor: pointer;
+}

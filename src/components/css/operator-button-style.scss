@@ -1,0 +1,19 @@
+.operator-buttons {
+    display: grid;
+    grid-template-columns: auto;
+    flex-basis: 25%;
+
+    & button {
+        font-size: 20px;
+        font-weight: 300;
+        border: .5px solid #000;
+        text-align: center;
+        padding: 5px;
+        min-height: 66px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        background-color: #e4896a;
+    }
+}
